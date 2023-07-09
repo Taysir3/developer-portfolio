@@ -41,22 +41,85 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .himh{
     color: #474747;
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 20px;
+}
+.bannerdes{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .headmh{
     color: #474747;
     font-size: 85px;
     font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .banner .hardypic{
     width: 584px;
     height: 676px;
+    display: flex;
+    width: 585px;
+    margin-top: 0px;
+}
+.leftalign{
+    padding-left: 180px;
+    padding-bottom: 160px;
+}
+
+/* About Me Section */
+.about{
+    padding: 380px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+}
+.ame{
+    font-size: 35px;
+    font-weight: 700;
+}
+.mydes{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.trone{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+}
+.trtwo{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+}
+td{
+    padding-right: 50px;
+}
+.table{
+    padding-left: 200px;
+    padding-top: 30px;
 }
