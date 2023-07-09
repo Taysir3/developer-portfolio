@@ -37,3 +37,26 @@ nav a{
     font-weight: 700;
     padding: 18px 35px;
 }
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.himh{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.headmh{
+    color: #474747;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner .hardypic{
+    width: 584px;
+    height: 676px;
+}
