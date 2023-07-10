@@ -204,6 +204,8 @@ main {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .resume-item-para {
@@ -212,6 +214,25 @@ main {
     font-weight: 400;
     line-height: 28px;
 }
-.resume-column{
-    /* display: flex; */
+
+.resume-container {
+    display: flex;
+    gap: 75px;
+    padding: 30px;
+}
+
+/* resume-button */
+.resume-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.download-primary {
+    text-align: center;
+    margin-top: 50px;
 }
