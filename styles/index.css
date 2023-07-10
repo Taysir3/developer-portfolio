@@ -1,34 +1,41 @@
 /* Common Shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.webtitle{
+
+.webtitle {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.titlercol{
+
+.titlercol {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.hbtn{
+
+.hbtn {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -39,25 +46,28 @@ nav a{
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.himh{
+
+.himh {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.bannerdes{
+
+.bannerdes {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
@@ -65,72 +75,83 @@ nav a{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.headmh{
+
+.headmh {
     color: #474747;
     font-size: 85px;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.banner .hardypic{
+
+.banner .hardypic {
     width: 584px;
     height: 676px;
     display: flex;
     width: 585px;
     margin-top: 0px;
 }
-.leftalign{
+
+.leftalign {
     padding-left: 180px;
     padding-bottom: 160px;
 }
 
 /* About Me Section */
-.about{
+.about {
     text-align: center;
     align-items: center;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin-top: 130px;
-    padding: 230px 20px;
+    padding: 120px 20px;
 }
-.mydes{
+
+.mydes {
     color: var(--dark-03, #757575);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     padding: 30px 150px;
 }
-.trone{
+
+.trone {
     color: #757575;
     text-align: center;
     font-size: 20px;
 }
-.trtwo{
+
+.trtwo {
     color: #757575;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
     line-height: 30px;
 }
-td{
+
+td {
     padding-right: 50px;
 }
-.table{
+
+.table {
     padding-left: 200px;
     padding-top: 30px;
 }
-main{
+
+main {
     max-width: 1200px;
     margin: 0px auto;
 }
-.whidtitle{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    padding-top: 100px;
+    padding-top: 50px;
 }
-.whidp{
+
+.whidp {
     color: var(--dark-03, #757575);
     text-align: center;
     font-size: 18px;
@@ -138,22 +159,59 @@ main{
     line-height: 30px;
     padding: 30px 150px;
 }
+
 /* Skills related styles */
-.skill{
+.skill {
     padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+    display: flex;
     gap: 24px;
 }
-.skills-container{
-    display: flex;
-}
-.skill-des{
+
+.skill-des {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
-.skill > h3{
+
+.skill>h3 {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* Resume Styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-para {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.resume-column{
+    /* display: flex; */
 }
